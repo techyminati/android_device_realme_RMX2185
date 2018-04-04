@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2020 Android Open Source Project
-#
+# Copyright (C) 2020 The LineageOS Project
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -16,3 +16,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_RMX2185.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_RMX2185-user \
+    lineage_RMX2185-userdebug \
+    lineage_RMX2185-eng
