@@ -45,6 +45,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 	$(LOCAL_PATH)/overlay \
 	$(LOCAL_PATH)/overlay-lineage
 
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
