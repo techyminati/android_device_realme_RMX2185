@@ -106,5 +106,9 @@ PRODUCT_BOOT_JARS += \
     mediatek-telephony-base \
     mediatek-telephony-common
 
+# Trustonic TEE
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/public.libraries-trustonic.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries-trustonic.txt
+
 # Properties
 -include $(DEVICE_PATH)/properties.mk

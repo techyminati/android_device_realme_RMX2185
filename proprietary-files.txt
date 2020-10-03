@@ -67,3 +67,19 @@ lib64/vendor.oppo.hardware.ktv@1.0.so
 
 # Soter
 -app/SoterService/SoterService.apk
+
+# Trustonic TEE
+lib/libMcRegistry.so
+lib/libTeeClient.so
+lib/libTeeServiceJni.so
+lib/libteeservice_client.trustonic.so
+lib/vendor.trustonic.tee@1.0.so
+lib/vendor.trustonic.teeregistry@1.0.so
+lib64/libMcRegistry.so
+lib64/libTeeClient.so
+lib64/libTeeServiceJni.so
+lib64/libteeservice_client.trustonic.so
+lib64/vendor.trustonic.tee@1.0.so
+lib64/vendor.trustonic.teeregistry@1.0.so
+-priv-app/TeeService/TeeService.apk
+priv-app/TeeService/lib/arm64/libTeeServiceJni.so
