@@ -77,7 +77,9 @@ PRODUCT_PACKAGES += \
 # Init
 PRODUCT_PACKAGES += \
     init.mt675.rc \
-    fstab.mt675
+    fstab.mt675 \
+    init.ago.rc \
+    fstab.enableswap
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
