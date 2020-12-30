@@ -139,6 +139,9 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR := $(DEVICE_PATH)/sepolicy/private
 # in device system sepolicy to work around IMS issues.
 SELINUX_IGNORE_NEVERALLOWS := true
 
+# Symbols
+TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so
+
 # Treble
 BOARD_VNDK_VERSION := current
 
