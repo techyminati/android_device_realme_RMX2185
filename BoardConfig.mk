@@ -134,3 +134,6 @@ TARGET_HAS_FUSEBLK_SEPOLICY_ON_VENDOR := true
 
 # Treble
 BOARD_VNDK_VERSION := current
+
+# Inherit from the proprietary version
+-include vendor/realme/RMX2185/BoardConfigVendor.mk
