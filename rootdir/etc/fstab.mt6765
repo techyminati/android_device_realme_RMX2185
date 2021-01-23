@@ -76,3 +76,8 @@ common_preload                                   /common_preload       ext4    r
 # Trusted Execution Environment (TEE)
 /dev/block/platform/bootdevice/by-name/tee1      /tee1                 emmc    defaults                                            defaults
 /dev/block/platform/bootdevice/by-name/tee2      /tee2                 emmc    defaults                                            defaults
+
+# Vision Processing Unit (VPU)
+/dev/block/platform/bootdevice/by-name/cam_vpu1  /cam_vpu1             emmc    defaults                                            defaults
+/dev/block/platform/bootdevice/by-name/cam_vpu2  /cam_vpu2             emmc    defaults                                            defaults
+/dev/block/platform/bootdevice/by-name/cam_vpu3  /cam_vpu3             emmc    defaults                                            defaults

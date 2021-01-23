@@ -400,7 +400,18 @@
         </string-array>
         <int name="volte_status" value="1" />
         <int name="volte_visible" value="0" />
-        <int name="vowifi_status" value="1" />
+        <int name="vowifi_status" value="0" />
+        <int name="vowifi_visible" value="1" />
+        <int name="vowifi_preferred_mode" value="1" />
+        <int name="vowifi_roaming_preferred_mode" value="2" />
+    </carrier_config>
+    <carrier_config operator="Turkey-Turk-Telekom">
+        <string-array name="mccmnc" num="1">
+            <item value="28603" />
+        </string-array>
+        <int name="volte_status" value="1" />
+        <int name="volte_visible" value="1" />
+        <int name="vowifi_status" value="0" />
         <int name="vowifi_visible" value="1" />
         <int name="vowifi_preferred_mode" value="1" />
         <int name="vowifi_roaming_preferred_mode" value="2" />
@@ -910,6 +921,17 @@
         <int name="vowifi_status" value="0" />
         <int name="vowifi_visible" value="0" />
         <int name="vowifi_preferred_mode" value="2" />
+        <int name="vowifi_roaming_preferred_mode" value="2" />
+    </carrier_config>
+    <carrier_config operator="Telekom">
+        <string-array name="mccmnc" num="1">
+            <item value="29341" />
+        </string-array>
+        <int name="volte_status" value="1" />
+        <int name="volte_visible" value="0" />
+        <int name="vowifi_status" value="1" />
+        <int name="vowifi_visible" value="1" />
+        <int name="vowifi_preferred_mode" value="1" />
         <int name="vowifi_roaming_preferred_mode" value="2" />
     </carrier_config>
 </carrier_config_list>
