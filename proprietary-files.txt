@@ -55,6 +55,12 @@ etc/firmware/hx_criteria.csv
 # Hotword
 -product/priv-app/HotwordEnrollmentOKGoogleCORTEXM4/HotwordEnrollmentOKGoogleCORTEXM4.apk
 
+# Kernel Power Offline Charging (KPOC)
+bin/kpoc_charger
+etc/init/kpoc_charger.rc
+lib/libshowlogo.so
+lib/libsysenv_system.so
+
 # Oppo
 lib/vendor.oppo.hardware.ktv@1.0.so
 lib64/vendor.oppo.hardware.ktv@1.0.so
