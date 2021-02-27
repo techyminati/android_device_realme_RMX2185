@@ -145,6 +145,7 @@ TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so
 
 # Treble
 BOARD_VNDK_VERSION := current
+TARGET_COPY_OUT_PRODUCT := system/product
 
 # Inherit from the proprietary version
 -include vendor/realme/RMX2185/BoardConfigVendor.mk
