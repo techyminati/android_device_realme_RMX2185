@@ -16,16 +16,14 @@
 cc_binary {
     relative_install_path: "hw",
     defaults: ["hidl_defaults"],
-    name: "android.hardware.light@2.0-service.wasabi",
-    init_rc: ["android.hardware.light@2.0-service.wasabi.rc"],
+    name: "android.hardware.light@2.0-service.RMX2185",
+    init_rc: ["android.hardware.light@2.0-service.RMX2185.rc"],
     srcs: ["service.cpp", "Light.cpp"],
     shared_libs: [
         "libbase",
         "libhardware",
         "libhidlbase",
-        "libhidltransport",
         "liblog",
-        "libhwbinder",
         "libutils",
         "android.hardware.light@2.0",
     ],
