@@ -76,12 +76,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
    $(DEVICE_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
 
-
-# Hotword Enrollement
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/hotword-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml \
-    $(DEVICE_PATH)/configs/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
-
 # ImsInit hack
 PRODUCT_PACKAGES += \
     ImsInit
@@ -100,7 +94,7 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.wasabi
+    android.hardware.light@2.0-service.RMX2185
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
