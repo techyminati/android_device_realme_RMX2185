@@ -100,7 +100,11 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
 
-# Overlays -- replace official
+# Power
+PRODUCT_PACKAGES += \
+    power.mt6765
+
+# Overlays 
 PRODUCT_PACKAGES += \
     FrameworkResOverlay
 
