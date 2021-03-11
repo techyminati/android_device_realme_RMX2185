@@ -25,3 +25,5 @@ Front Camera | 	5 MP, f/2.0, 1/2.8", 0.9µm
 Release Month | 2020, June 30
 
 ![Realme C11](https://fdn2.gsmarena.com/vv/pics/realme/realme-c11-1.jpg "Realme C11")
+
+Note: Apply following [***Patches***](https://github.com/techyminati/patches) On Respective Directories of ROM Source is Mandatory for Boot ! 
