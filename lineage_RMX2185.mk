@@ -18,7 +18,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from wasabi device makefile
+# Inherit from device makefile
 $(call inherit-product, device/realme/RMX2185/device.mk)
 
 # Inherit some common stuff.
@@ -33,10 +33,13 @@ PRODUCT_MODEL := Realme C11
 PRODUCT_MANUFACTURER := realme
 
 # Build info
-BUILD_FINGERPRINT := "realme/RMX2185/RMX2185L3:10/QP1A.190711.020/1598241000:user/release-keys"
+BUILD_FINGERPRINT := "google/sunfish/sunfish:11/RQ1A.210205.004/7038034:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=RMX2185 \
     PRODUCT_NAME=RMX2185 \
-    PRIVATE_BUILD_DESC="full_oppo6765-user 10 QP1A.190711.020 0b36b6c4f9b3bf3b release-keys"
+    PRIVATE_BUILD_DESC="full_oppo6765-user 10 QP1A.190711.020 68b77aba7cb33275 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.fingerprint=$(BUILD_FINGERPRINT)
