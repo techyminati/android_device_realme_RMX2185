@@ -75,9 +75,7 @@ PRODUCT_PACKAGES += \
 # Init
 PRODUCT_PACKAGES += \
     init.mt6765.rc \
-    fstab.mt6765 \
-    init.safailnet.rc
-
+    fstab.mt6765
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
