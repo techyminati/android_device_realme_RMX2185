@@ -15,7 +15,7 @@
 -->
 
 <audioPolicyConfiguration version="1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <!-- version section contains a “version” tag in the form “major.minor” e.g version=”1.0” -->
+    <!-- version section contains a version tag in the form major.minor e.g version=1.0 -->
 
     <!-- Global configuration Decalaration -->
     <globalConfiguration speaker_drc_enabled="false"/>
@@ -23,24 +23,24 @@
 
     <!-- Modules section:
         There is one section per audio HW module present on the platform.
-        Each module section will contains two mandatory tags for audio HAL “halVersion” and “name”.
+        Each module section will contains two mandatory tags for audio HAL halVersion and name.
         The module names are the same as in current .conf file:
-                “primary”, “A2DP”, “remote_submix”, “USB”
+                primary, A2DP, remote_submix, USB
         Each module will contain the following sections:
-        “devicePorts”: a list of device descriptors for all input and output devices accessible via this
+        devicePorts: a list of device descriptors for all input and output devices accessible via this
         module.
         This contains both permanently attached devices and removable devices.
-        “mixPorts”: listing all output and input streams exposed by the audio HAL
-        “routes”: list of possible connections between input and output devices or between stream and
+        mixPorts: listing all output and input streams exposed by the audio HAL
+        routes: list of possible connections between input and output devices or between stream and
         devices.
             "route": is defined by an attribute:
                 -"type": <mux|mix> means all sources are mutual exclusive (mux) or can be mixed (mix)
                 -"sink": the sink involved in this route
                 -"sources": all the sources than can be connected to the sink via vis route
-        “attachedDevices”: permanently attached devices.
+        attachedDevices: permanently attached devices.
         The attachedDevices section is a list of devices names. The names correspond to device names
         defined in <devicePorts> section.
-        “defaultOutputDevice”: device to be used by default when no policy rule applies
+        defaultOutputDevice: device to be used by default when no policy rule applies
     -->
     <modules>
         <!-- Primary Audio HAL -->
@@ -62,7 +62,7 @@
                     <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
                              samplingRates="44100,48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
                 </mixPort>
-                <mixPort name="deep_buffer" role="source" flags="AUDIO_OUTPUT_FLAG_DEEP_BUFFER">
+                <mixPort name="deep_buffer" role="source" flags="AUDIO_OUTPUT_FLAG_NONE">
                     <profile name="" format="AUDIO_FORMAT_PCM_32_BIT"
                              samplingRates="44100,48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
                     <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
@@ -286,3 +286,4 @@
     <!-- End of Volume section -->
 
 </audioPolicyConfiguration>
+
