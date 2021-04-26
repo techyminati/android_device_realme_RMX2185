@@ -2,5 +2,9 @@ type hal_fingerprint_RMX2185, domain;
 hal_client_domain(hal_fingerprint_RMX2185, hal_fingerprint)
 hal_server_domain(hal_fingerprint_RMX2185, hal_fingerprint)
 
-type hal_fingerprint_RMX2185_exec, system_file_type, exec_type, file_type;
+type hal_fingerprint_RMX2185_exec, system_file_type, vendor_file_type, exec_type, file_type;
 init_daemon_domain(hal_fingerprint_RMX2185)
+
+binder_call(hal_fingerprint_RMX2185, hal_fingerprint_RMX2185)
+
+allow hal_fingerprint_RMX2185 tee_device:chr_file getattr;
