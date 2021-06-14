@@ -79,6 +79,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 BOARD_PREBUILT_DTBIMAGE_DIR := $(DEVICE_PATH)/prebuilt/dtb
 TARGET_KERNEL_ARCH := arm64
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(shell pwd)/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-7.5/bin/aarch64-linux-gnu-
 TARGET_KERNEL_CONFIG := karashi_defconfig
 TARGET_KERNEL_SOURCE := kernel/realme/RMX2185
 
