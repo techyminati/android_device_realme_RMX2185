@@ -33,7 +33,7 @@ PRODUCT_MODEL := Realme G35 Series
 PRODUCT_MANUFACTURER := realme
 
 # Build info
-BUILD_FINGERPRINT := "google/sunfish/sunfish:11/RQ2A.210405.005/7181113:user/release-keys"
+BUILD_FINGERPRINT := " google/sunfish/sunfish:11/RQ3A.210605.005/7349499:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=RMX2185 \
     PRODUCT_NAME=RMX2185 \
