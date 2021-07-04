@@ -5,6 +5,11 @@
     "branch"     : "lineage-18.1"
   },
   {
+    "repository" : "techyminati/android_packages_apps_FMRadio",
+    "target_path": "packages/apps/FMRadio",
+    "branch"     : "lineage-18.1"
+  },
+  {
     "repository" : "techyminati/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-7.5",
     "target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-7.5",
     "branch"     : "gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu"
