@@ -18,3 +18,7 @@ vendor/lib/libdpframework.so:product/vendor_overlay/29/lib/libdpframework.so|9b7
 vendor/lib64/libdpframework.so:product/vendor_overlay/29/lib64/libdpframework.so|48d574415db7f42a855841197a81039274edd20a
 
 vendor/lib/libvpud_vcodec.so:product/vendor_overlay/29/lib/libvpud_vcodec.so|f64b62e94a3f6edb661b7b74c3ec34c19ee710bb
+
+# Mtk FM Radio
+-product/lib/libfmjni.so
+-product/lib64/libfmjni.so
