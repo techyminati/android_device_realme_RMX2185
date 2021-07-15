@@ -5,6 +5,11 @@
     "branch"     : "lineage-18.1"
   },
   {
+    "repository" : "techyminati/android_kernel_realme_karashi",
+    "target_path": "kernel/realme/RMX2185",
+    "branch"     : "android-10.0"
+  },
+  {
     "repository" : "HyperTeam/packages_apps_RealmeParts",
     "target_path": "packages/apps/RealmeParts",
     "branch"     : "lineage-18.1"
