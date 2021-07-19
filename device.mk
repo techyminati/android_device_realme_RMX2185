@@ -20,7 +20,10 @@ DEVICE_PATH := device/realme/RMX2185
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Call proprietary blob setup
-$(call inherit-product-if-exists, vendor/realme/RMX2185/RMX2185-vendor.mk)
+$(call inherit-product, vendor/realme/RMX2185/RMX2185-vendor.mk)
+
+# Enable updating of APEXes
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Parts
 $(call inherit-product-if-exists, packages/apps/RealmeParts/parts.mk)
