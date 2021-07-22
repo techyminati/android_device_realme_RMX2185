@@ -85,7 +85,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.mt6765.rc \
     fstab.mt6765 \
-    perf_profile.sh
+    perf_profile.sh \
+    swap_enable.sh
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
