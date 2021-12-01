@@ -13,9 +13,9 @@ Basic   | Spec Sheet
 CPU     | Octa-core (4x2.3 GHz Cortex-A53 & 4x1.8 GHz Cortex-A53)
 Chipset | MediaTek Helio G35 (12 nm)
 GPU     | PowerVR GE8320
-Memory  | 2 GB
+Memory  | 2/3/4 GB
 Shipped Android Version | Android 10, realme UI 1.0 (Upgradeable to Android 11,realme UI 2.0)
-Storage | 32 GB (eMMC)
+Storage | 32/64 GB (eMMC)
 MicroSD | Up to 512 GB (Hybrid)
 Battery | Li-Po 5000 mAh, non-removable
 Dimensions | 164.4 x 75.9 x 9.1 mm (6.47 x 2.99 x 0.36 in)
@@ -26,4 +26,6 @@ Release Month | 2020, June 30
 
 ![Realme C11](https://fdn2.gsmarena.com/vv/pics/realme/realme-c11-1.jpg "Realme C11")
 
-Note: Apply following [***Patches***](https://github.com/techyminati/patches) On Respective Directories of ROM Source is Mandatory for Boot ! 
+Note: 
+* Apply following [***Patches***](https://github.com/techyminati/patches) On Respective Directories of ROM Source is Mandatory for Boot ! 
+* This device tree is based on realmeUI 1.0 Firmware.
